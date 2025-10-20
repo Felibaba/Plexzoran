@@ -235,7 +235,7 @@ process.on('SIGTERM', () => {
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://plexzora.onrender.com', 'https://smavot.onrender.com'],
+  origin: ['http://localhost:3000', 'https://plexzora.onrender.com', 'https://smavot.onrender.com/login.html'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Accept', 'Authorization'],
   credentials: false,
