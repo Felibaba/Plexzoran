@@ -413,7 +413,7 @@ process.on('SIGTERM', () => {
 
 // Middleware (unchanged)
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://plexzora.onrender.com', 'https://smavo.onrender.com'],
+  origin: ['http://localhost:3000', 'https://plexzoran.onrender.com', 'https://smavon.onrender.com'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Accept', 'Authorization'],
   credentials: false,
